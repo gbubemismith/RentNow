@@ -1,0 +1,54 @@
+﻿@model IEnumerable<RentNow.Models.Movie>
+@{
+    ViewBag.Title = "ReadOnlyList";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Movies</h2>
+
+
+
+<table class="table table-bordered table-hover" id="movies">
+    <thead>
+        <tr>
+            <th><b>Movie</b></th>
+            <th><b>Genre</b></th>
+            
+        </tr>
+    </thead>
+    <tbody></tbody>
+</table>
+
+@section scripts{
+    <script>
+        $(document).ready(function () {
+           var table = $("#movies").DataTable({
+                ajax: {
+                    url: "/api/movies",
+                    dataSrc: ""
+                },
+                columns: [
+                    {
+                        data: "name",
+                        
+                    },
+                    {
+                        data : "genre.name"
+                    }
+                ]
+
+            });
+
+        
+
+
+        });
+
+
+    </script>
+
+}
+
+
+
+

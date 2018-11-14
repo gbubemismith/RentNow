@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<discovery xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.xmlsoap.org/disco/">
+  <contractRef ref="https://demo.globalpay.com.ng/GlobalpayWebService_demo/service.asmx?wsdl" docRef="https://demo.globalpay.com.ng/GlobalpayWebService_demo/service.asmx" xmlns="http://schemas.xmlsoap.org/disco/scl/" />
+  <soap address="https://demo.globalpay.com.ng/GlobalpayWebService_demo/service.asmx" xmlns:q1="https://www.eazypaynigeria.com/globalpay_demo/" binding="q1:ServiceSoap" xmlns="http://schemas.xmlsoap.org/disco/soap/" />
+  <soap address="https://demo.globalpay.com.ng/GlobalpayWebService_demo/service.asmx" xmlns:q2="https://www.eazypaynigeria.com/globalpay_demo/" binding="q2:ServiceSoap12" xmlns="http://schemas.xmlsoap.org/disco/soap/" />
+</discovery>
