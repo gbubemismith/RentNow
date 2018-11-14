@@ -1,4 +1,0 @@
-./Migrations
-./App_Data
-./App_Start
-./Service References
