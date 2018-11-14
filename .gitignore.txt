@@ -1,4 +1,4 @@
-/Migrations
-/App_Data
-/App_Start
-/Service References
+./Migrations
+./App_Data
+./App_Start
+./Service References
